@@ -1,13 +1,13 @@
 import "./App.css";
-import Button from 'react-bootstrap/Button';
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>App Component</h1>
-
-
+    <div className="App container">
+    <Main />
     </div>
   );
 }
